@@ -1,4 +1,4 @@
-FROM ubuntu:24.04
+FROM ubuntu:24.10
 
 RUN export DEBIAN_FRONTEND=noninteractive \
     && apt-get update \
